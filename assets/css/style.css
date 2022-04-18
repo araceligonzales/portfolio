@@ -1,18 +1,30 @@
 
 section {
-    height: 500px;
-    background: #212121;
-    color: white;
+    background-color: white;
 }
 
 .hero {
     height: 100vh;
-    font-size: 25px;
+    font-size: 35px;
+    background-color: #212121;
+    color: white;
+}
+
+footer{
+    background-color: #212121;
+    text-align: center;
+    color: white;
+    padding: 40px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
 }
 
 ul {
@@ -26,8 +38,17 @@ li {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .hero-area {
@@ -59,4 +80,45 @@ button:active {
     background-color: #f48fb1;
     border: 3px solid #f48fb1;
     color: #424242;
+}
+
+.socials {
+    padding: 15px;
+}
+
+.headshot {
+    width: 200px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.sub-section-project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px #424242;
+    margin: 10px;
+}
+
+.project-link {
+    text-decoration: none;
+    color:#e91e63;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
